@@ -10,7 +10,13 @@ const questions = [
     {
         type: 'input',
         name: 'text',
-        message: 'Please input required text (maximum 3 characters)'
+        message: 'Please input required text (maximum 3 characters)',
+        validate: function(text) {
+            if(text.length > 3){
+                return "Enter no more than 3 characters you silly goose" 
+            }
+            return true
+        }
     },
     {
         type: 'input',

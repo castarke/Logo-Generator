@@ -34,28 +34,6 @@ const questions = [
     
 ]
 
-// function init() {
-//     inquirer.prompt(questions)
-//       .then((response) => {
-//         return new Promise((resolve, reject) => {
-//           if (response.shape === 'circle') {
-//             let svglogo = new Shape.circle(response.text, response.textColor, response.shapeColor).renderSVG();
-//             resolve(svglogo);
-//           } else if (response.shape === 'triangle') {
-//             let svglogo = new Shape.triangle(response.text, response.textColor, response.shapeColor).renderSVG();
-//             resolve(svglogo);
-//           } else {
-//             let svglogo = new Shape.square(response.text, response.textColor, response.shapeColor).renderSVG();
-//             resolve(svglogo);
-//           }
-//         })
-//       })
-//       .then((svglogo) => fs.writeFile('./examples/logo.svg', svglogo, (err) =>
-//         err ? console.log(err) : console.log('svg created')
-//       ))
-//   }
-  
-//   init();
 
 
 function init() {

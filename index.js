@@ -1,11 +1,11 @@
+// importing in required sheets
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { Shape, Circle, Triangle, Square } = require('./lib/shape');
 
-
-
 inquirer
 Shape
+// creating questions for inquirer
 const questions = [
     {
         type: 'input',
@@ -41,7 +41,7 @@ const questions = [
 ]
 
 
-
+// function to create SVG logo based off choice of shape
 function init() {
     inquirer.prompt(questions)
         .then((response) => {
@@ -62,6 +62,5 @@ function init() {
             err ? console.log(err) : console.log('Generated logo.svg into examples folder'))
         )
 }
-
-
+// running function
 init();

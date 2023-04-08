@@ -22,7 +22,7 @@
 ## Installation
   To install this project, you will first install the package.json by typing out npm init -y in the integrated terminal. After this step, please install "inquirer" by typing out npm i inquirer into the integrated terminal. This project used version 8.2.4 so if you would like to install the same version, type out npm i inquirer@8.2.4 into the integrated terminal. To run a test, please install Jest by typing out npm i jest.
 ## Usage
-  This can be used to create a SVG logo in a flash using the integrated terminal. Once inquirer has been installed, please run the program through Nodejs by typing out node index.js and answer the following prompts. These answers will be used to create your personalized logo.svg file. you can find an example of how it runs here: 
+  This can be used to create a SVG logo in a flash using the integrated terminal. Once inquirer has been installed, please run the program through Nodejs by typing out node index.js and answer the following prompts. These answers will be used to create your personalized logo.svg file. you can find an example of how it runs here: https://drive.google.com/file/d/1HogkzejHd8Z5Sivy0_tv6ynmLyYnHoys/view
 ## Credits
   The collaborators on this project are inquirer npm which can be found at https://www.npmjs.com/packagee/inquirer?activeTab=readme#methods and jest which can be found here https://www.npmjs.com/package/jest
 ## Test
